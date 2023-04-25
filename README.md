@@ -49,7 +49,7 @@ gsutil -m cp \
   "gs://waymo_open_dataset_motion_v_1_2_0/uncompressed/tf_example/validation/validation_tfexample.tfrecord-00001-of-00150" \
   .
 ```
-
+Remember to put training dataset in dir: ___/mnt/SceneTransformer/data/tf_records/training/___
 
 # Acknowledge
 Thanks to this [repo](https://github.com/Chen-Albert-FENG/SceneTransformer), [dataset](https://console.cloud.google.com/storage/browser/waymo_open_dataset_motion_v_1_2_0;tab=objects?prefix=&forceOnObjectsSortingFiltering=false), and [paper](https://openreview.net/pdf?id=Wm3EA5OlHsG).
