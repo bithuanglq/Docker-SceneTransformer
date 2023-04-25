@@ -41,7 +41,14 @@ python tmp.py
 
 
 ## 4. How to download the Waymo motion dataset
-
+Following this [tutorial](https://cloud.google.com/storage/docs/gsutil_install?hl=zh-cn), installing the _gcloud_  and _gsutil_ command.
+Then get amounts of dataset using this [web's]() _gsutli_ command like below:
+```
+gsutil -m cp \
+  "gs://waymo_open_dataset_motion_v_1_2_0/uncompressed/tf_example/validation/validation_tfexample.tfrecord-00000-of-00150" \
+  "gs://waymo_open_dataset_motion_v_1_2_0/uncompressed/tf_example/validation/validation_tfexample.tfrecord-00001-of-00150" \
+  .
+```
 
 
 # Acknowledge
