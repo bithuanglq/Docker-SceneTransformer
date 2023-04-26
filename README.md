@@ -41,6 +41,7 @@ python tmp.py
 
 
 ## 4. How to download the Waymo motion dataset
+The Waymo moiton dataset is in form of structured dataset instead of images or BEV.
 Following this [tutorial](https://cloud.google.com/storage/docs/gsutil_install?hl=zh-cn), installing the _gcloud_  and _gsutil_ command.
 Then get amounts of dataset using this [web's]() _gsutli_ command like below:
 ```
